@@ -1,0 +1,14 @@
+{
+  "user": {
+    "sign-up": {
+      "username": "Dummy User",
+      "email": "dummy@gmail.com",
+      "mobileNumber": "0852412661611",
+      "password": "secret"
+    },
+    "sign-in": {
+      "username": "Dummy User",
+      "password": "secret"
+    }
+  }
+}

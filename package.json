@@ -1,0 +1,41 @@
+{
+   "name": "socket-io-server",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js",
+      "db:backup": "node database/utilities/mongodb-backup.js",
+      "db:restore": "node database/utilities/mongodb-restore.js",
+      "make:schema": "node database/middleware/generateSchema.js"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "@nodelib/fs.scandir": "^2.1.5",
+      "bcrypt-nodejs": "^0.0.3",
+      "body-parser": "^1.20.0",
+      "cli-columns": "^4.0.0",
+      "cors": "^2.8.5",
+      "dayjs": "^1.11.1",
+      "dotenv": "^16.0.0",
+      "eval": "^0.1.8",
+      "express": "^4.18.0",
+      "jsonwebtoken": "^8.5.1",
+      "line-replace": "^2.0.1",
+      "lodash": "^4.17.21",
+      "mongoose": "^6.3.1",
+      "mongoose-paginate": "^5.0.3",
+      "morgan": "^1.10.0",
+      "path": "^0.12.7",
+      "readline-sync": "^1.4.10",
+      "shelljs": "^0.8.5",
+      "socket.io": "^4.5.0",
+      "socketio-jwt": "^4.6.2",
+      "uuid": "^8.3.2",
+      "yesno": "^0.3.1",
+      "yup": "^0.32.11"
+   }
+}
